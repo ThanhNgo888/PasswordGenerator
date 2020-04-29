@@ -22,3 +22,12 @@ function generate(){
 
 //set default length display of 25
 document.getElementById("length").innerHTML = "Length: 25";
+
+//function to set length based on slider position
+document.getElementById("slider").oninput = function(){
+    if(document.getElementById("slider").value > 0){
+        document.getElementById("length").innerHTML = "length: " + document.getElementById("slider").value;
+    }else{
+        document.getElementById("length").innerHTML = "Length: 1";
+    }
+}
