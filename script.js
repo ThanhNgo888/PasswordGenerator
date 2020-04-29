@@ -19,3 +19,6 @@ function generate(){
     //add password to previously generated passwords section
     document.getElementById("lastPasswords").innerHTML += password + "<br />";
 }
+
+//set default length display of 25
+document.getElementById("length").innerHTML = "Length: 25";
