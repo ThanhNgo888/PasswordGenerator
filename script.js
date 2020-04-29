@@ -31,3 +31,11 @@ document.getElementById("slider").oninput = function(){
         document.getElementById("length").innerHTML = "Length: 1";
     }
 }
+
+//function to copy password to clipboard
+function clipboardPW(){
+    document.getElementById("display").select();
+    document.execCommand("Copy");
+
+    alert("Password copied to clipboard!");
+}
