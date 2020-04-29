@@ -19,5 +19,29 @@
         <!-- a.navbar-brand =>tab -->
         <a href="#" class="navbar-brand">Random Password Generator</a>
     </nav>
+    <!-- ====================================================================== -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-sm-12">
+                <div class="content">
+                    <h4>Random Password Generator</h4>
+                    <br>
+                    <input type="text" id="display">
+                    <br>
+                    <input type="range" min="0" max="50" name="slider" id="slider">
+                    <br>
+                    <button onclick="">Generate</button>
+                    <button onclick="">Copy to Clipboard</button>
+                    <div id="length"></div>
+                </div>
+                <!-- ====Previous Password Session========== -->
+                <div class="previous_passwords">
+                    <b>Previously Generated Passwords</b>
+                    <br>
+                    <div id="lastPasswords"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
