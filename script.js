@@ -1,9 +1,9 @@
 //generate random password
 function generate(){
-    //set password length/complexity
+    //set password length/complexity with the id = slider and grab the value
     let complexity = document.getElementById("slider").value;
 
-    //possible password values
+    //possible password values to generate the password
     const values = "ABCDEFGHIJKLMNOPQRSTUVWZYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
 
     let password = "";
