@@ -4,7 +4,7 @@ function generate(){
     let complexity = document.getElementById("slider").value;
 
     //possible password values to generate the password
-    const values = "ABCDEFGHIJKLMNOPQRSTUVWZYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
+    const values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
 
     //when a user hits the generate button,this variable will get set
     let password = "";
