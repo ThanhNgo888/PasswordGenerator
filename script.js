@@ -6,10 +6,12 @@ function generate(){
     //possible password values to generate the password
     const values = "ABCDEFGHIJKLMNOPQRSTUVWZYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
 
+    //when a user hits the generate button,this variable will get set
     let password = "";
 
     //create for loop to choose password characters
     for(var i = 0; i <=complexity; i++){
+        //minus 1 because we started from 0
         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
     }
 
